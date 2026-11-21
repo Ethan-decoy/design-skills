@@ -1,0 +1,7 @@
+interface:
+  display_name: "视觉设计"
+  short_description: "构建、改进和审查软件界面的构图、排版、色彩与整体视觉风格"
+  default_prompt: "使用 $visual-design，结合产品气质与真实内容，从专业审美角度完成我提出的界面设计或审查。"
+
+policy:
+  allow_implicit_invocation: true

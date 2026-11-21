@@ -1,0 +1,7 @@
+interface:
+  display_name: "数据可视化"
+  short_description: "构建与审查图表、仪表盘和报表，使数据关系准确、清晰且易于辨认"
+  default_prompt: "使用 $data-visualization，根据数据口径和读者要回答的问题，完成我提出的图表设计、改进或审查。"
+
+policy:
+  allow_implicit_invocation: true
