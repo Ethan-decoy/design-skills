@@ -10,9 +10,9 @@ Agent Skills for visual design, interaction design, and data visualization in so
 
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
-| [visual-design · 视觉设计](visual-design/SKILL.md) | 从产品气质与真实内容出发，组织构图、视觉层级、排版和色彩。 | 已发布 `v0.1.1` |
-| [interaction-design · 交互设计](interaction-design/SKILL.md) | 设计和走查操作路径、控件行为、状态反馈及错误恢复。 | 已发布 `v0.1.1` |
-| [data-visualization · 数据可视化](data-visualization/SKILL.md) | 选择和审查图表表达，核对视觉编码与数据含义。 | 已发布 `v0.1.1` |
+| [visual-design · 视觉设计](visual-design/SKILL.md) | 从产品气质与真实内容出发，组织构图、视觉层级、排版和色彩。 | 已发布 `v0.1.0` |
+| [interaction-design · 交互设计](interaction-design/SKILL.md) | 设计和走查操作路径、控件行为、状态反馈及错误恢复。 | 已发布 `v0.1.0` |
+| [data-visualization · 数据可视化](data-visualization/SKILL.md) | 选择和审查图表表达，核对视觉编码与数据含义。 | 已发布 `v0.1.0` |
 
 ## 语言
 
@@ -24,13 +24,13 @@ Agent Skills for visual design, interaction design, and data visualization in so
 
 | 技能 | 安装包 | 版本源码 |
 | --- | --- | --- |
-| `visual-design` | [下载 ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.1/visual-design-v0.1.1.zip) | [v0.1.1](https://github.com/Ethan-decoy/design-skills/tree/v0.1.1/visual-design) |
-| `interaction-design` | [下载 ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.1/interaction-design-v0.1.1.zip) | [v0.1.1](https://github.com/Ethan-decoy/design-skills/tree/v0.1.1/interaction-design) |
-| `data-visualization` | [下载 ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.1/data-visualization-v0.1.1.zip) | [v0.1.1](https://github.com/Ethan-decoy/design-skills/tree/v0.1.1/data-visualization) |
+| `visual-design` | [下载 ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.0/visual-design-v0.1.0.zip) | [v0.1.0](https://github.com/Ethan-decoy/design-skills/tree/v0.1.0/visual-design) |
+| `interaction-design` | [下载 ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.0/interaction-design-v0.1.0.zip) | [v0.1.0](https://github.com/Ethan-decoy/design-skills/tree/v0.1.0/interaction-design) |
+| `data-visualization` | [下载 ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.0/data-visualization-v0.1.0.zip) | [v0.1.0](https://github.com/Ethan-decoy/design-skills/tree/v0.1.0/data-visualization) |
 
 解压后，将整个同名目录导入所用工具，或复制到它读取的技能目录，确保 `SKILL.md` 直接位于技能目录中。采用 `.agents/skills/` 约定的工具可使用用户目录下的 `~/.agents/skills/` 或项目下的 `.agents/skills/`。安装和启用方式以所用工具为准。[Agent Skills 客户端指南](https://agentskills.io/client-implementation/adding-skills-support#where-to-scan)
 
-下载校验值见发布页的 `SHA256SUMS.txt`。[v0.1.1 发布页](https://github.com/Ethan-decoy/design-skills/releases/tag/v0.1.1)
+下载校验值见发布页的 `SHA256SUMS.txt`。[v0.1.0 发布页](https://github.com/Ethan-decoy/design-skills/releases/tag/v0.1.0)
 
 ## 使用
 

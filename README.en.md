@@ -8,9 +8,9 @@ Agent Skills for building, improving, and reviewing software interfaces and data
 
 | Skill | Purpose | Status |
 | --- | --- | --- |
-| [visual-design · Visual Design](visual-design/SKILL.en.md) | Use the product's intended character and real content to shape composition, visual hierarchy, typography, and color. | Released in `v0.1.1` |
-| [interaction-design · Interaction Design](interaction-design/SKILL.en.md) | Design and walk through task flows, control behavior, state feedback, and recovery. | Released in `v0.1.1` |
-| [data-visualization · Data Visualization](data-visualization/SKILL.en.md) | Choose and review chart designs, checking that visual encodings match the meaning of the data. | Released in `v0.1.1` |
+| [visual-design · Visual Design](visual-design/SKILL.en.md) | Use the product's intended character and real content to shape composition, visual hierarchy, typography, and color. | Released in `v0.1.0` |
+| [interaction-design · Interaction Design](interaction-design/SKILL.en.md) | Design and walk through task flows, control behavior, state feedback, and recovery. | Released in `v0.1.0` |
+| [data-visualization · Data Visualization](data-visualization/SKILL.en.md) | Choose and review chart designs, checking that visual encodings match the meaning of the data. | Released in `v0.1.0` |
 
 ## Language
 
@@ -22,13 +22,13 @@ Download the ZIP for the skill you want or use the source folder for that versio
 
 | Skill | Archive | Versioned source |
 | --- | --- | --- |
-| `visual-design` | [Download ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.1/visual-design-v0.1.1.zip) | [v0.1.1](https://github.com/Ethan-decoy/design-skills/tree/v0.1.1/visual-design) |
-| `interaction-design` | [Download ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.1/interaction-design-v0.1.1.zip) | [v0.1.1](https://github.com/Ethan-decoy/design-skills/tree/v0.1.1/interaction-design) |
-| `data-visualization` | [Download ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.1/data-visualization-v0.1.1.zip) | [v0.1.1](https://github.com/Ethan-decoy/design-skills/tree/v0.1.1/data-visualization) |
+| `visual-design` | [Download ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.0/visual-design-v0.1.0.zip) | [v0.1.0](https://github.com/Ethan-decoy/design-skills/tree/v0.1.0/visual-design) |
+| `interaction-design` | [Download ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.0/interaction-design-v0.1.0.zip) | [v0.1.0](https://github.com/Ethan-decoy/design-skills/tree/v0.1.0/interaction-design) |
+| `data-visualization` | [Download ZIP](https://github.com/Ethan-decoy/design-skills/releases/download/v0.1.0/data-visualization-v0.1.0.zip) | [v0.1.0](https://github.com/Ethan-decoy/design-skills/tree/v0.1.0/data-visualization) |
 
 After extracting the archive, import the entire skill folder into your tool or copy it into a skill directory that your tool scans. Keep `SKILL.md` directly inside the named skill folder. For tools that follow the `.agents/skills/` convention, use `~/.agents/skills/` for user scope or the project's `.agents/skills/` for project scope. Follow your tool's instructions for installing and enabling skills. [Agent Skills client guide](https://agentskills.io/client-implementation/adding-skills-support#where-to-scan)
 
-Download checksums are listed in `SHA256SUMS.txt` on the release page. [v0.1.1 release](https://github.com/Ethan-decoy/design-skills/releases/tag/v0.1.1)
+Download checksums are listed in `SHA256SUMS.txt` on the release page. [v0.1.0 release](https://github.com/Ethan-decoy/design-skills/releases/tag/v0.1.0)
 
 ## Usage
 
