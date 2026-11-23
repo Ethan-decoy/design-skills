@@ -18,7 +18,7 @@ Moshagen 与 Thielsch 的研究将人对网站视觉美感的评价归纳为简�
 
 ## AI 能从哪些输入获得引导
 
-在 Codex 中，用户说「从审美角度看看这页」时，任务与技能描述的匹配可触发隐式调用。技能被选中后，正文进入当前任务的上下文。模型的权重在训练中学得，激活值是模型处理当前输入时产生的中间计算结果。上下文学习实验展示过在权重固定时，用指令和示例改变任务表现的做法。在这个项目里，可以改变任务信息与参考材料，观察画面中的设计变量怎样变化。要定位模型内部的特定激活，还需要取得内部数据并作专门分析。[Codex 技能说明](https://learn.chatgpt.com/docs/build-skills#how-chatgpt-and-codex-use-skills) · [上下文学习原始研究](https://openai.com/index/language-models-are-few-shot-learners/) · [Anthropic 的内部特征研究](https://www.anthropic.com/research/mapping-mind-language-model)
+支持自动选择 Agent Skills 的工具可以把「从审美角度看看这页」与技能描述匹配，在选中该技能时载入 `SKILL.md` 正文。模型的权重在训练中学得，激活值是模型处理当前输入时产生的中间计算结果。上下文学习实验展示过在权重固定时，用指令和示例改变任务表现的做法。在这个项目里，可以改变任务信息与参考材料，观察画面中的设计变量怎样变化。要定位模型内部的特定激活，还需要取得内部数据并作专门分析。[Agent Skills 的加载方式](https://agentskills.io/home#how-do-agent-skills-work) · [上下文学习原始研究](https://openai.com/index/language-models-are-few-shot-learners/) · [Anthropic 的内部特征研究](https://www.anthropic.com/research/mapping-mind-language-model)
 
 OpenAI 的 GPT-6.2 前端指南建议说清项目所需的风格、字体和图像，借参考图传达文字难以说清的细节，再渲染并对照修改。Anthropic 也展示过在相同任务中加入排印、主题等提示后，Claude 前端作品出现的变化。这些厂商案例提供了可尝试的方法。它们在本项目使用的模型、中文字体和软件类型上的效果仍待实测。[OpenAI 前端指南](https://developers.openai.com/api/docs/guides/latest-model#gpt-6.2-astra-frontend-design) · [Anthropic 前端设计案例](https://claude.com/resources/articles/improving-frontend-design-through-skills)
 
